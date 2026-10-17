@@ -1,0 +1,24 @@
+{
+  "name": "soft-game-zone-api",
+  "version": "1.0.0",
+  "description": "SOFT GAME ZONE e-commerce REST API (Express + MongoDB + Nodemailer)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "nodemailer": "^6.9.16"
+  }
+}
